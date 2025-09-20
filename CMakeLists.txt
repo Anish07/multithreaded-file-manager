@@ -1,0 +1,4 @@
+
+project(multithreaded_file_manager LANGUAGES CXX)
+add_executable(multithreaded_file_manager src/main.cpp)
+target_compile_features(multithreaded_file_manager PRIVATE cxx_std_17)
